@@ -25,7 +25,7 @@ We will now use a feature of RStudio to download two files stored on github (the
 ![Switching to Terminal within RStudio](./figures/fig_consoleTerminal.png)
 
 ```{bash}
-wget -c https://github.com/GenomicsAotearoa/publicationQualityPlots_ggplot2/blob/main/publicationQualityPlots_ggplot2.qmd
+wget -c https://raw.githubusercontent.com/GenomicsAotearoa/publicationQualityPlots_ggplot2/main/publicationQualityPlots_ggplot2.qmd
 wget -c https://raw.githubusercontent.com/GenomicsAotearoa/publicationQualityPlots_ggplot2/main/WingspanResults.csv
 ```
 
