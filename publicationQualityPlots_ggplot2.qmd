@@ -26,7 +26,7 @@ We will now use a feature of RStudio to download two files stored on github (the
 
 ```{bash}
 wget -c https://github.com/GenomicsAotearoa/publicationQualityPlots_ggplot2/blob/main/publicationQualityPlots_ggplot2.qmd
-wget -c https://github.com/GenomicsAotearoa/publicationQualityPlots_ggplot2/blob/main/WingspanResults.csv
+wget -c https://raw.githubusercontent.com/GenomicsAotearoa/publicationQualityPlots_ggplot2/main/WingspanResults.csv
 ```
 
 You should now see the two documents in your files directory on the right of your screen. Click on the .qmd file to open it in RStudio. Alternatively, if you are in a file browser, double clicking this .rmd file should automatically open RStudio.
